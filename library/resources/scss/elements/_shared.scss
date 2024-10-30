@@ -1,0 +1,159 @@
+.d4p-setting-checkboxes {
+    &.d4p-setting-checkboxes-hierarchy {
+        .d4p-inside-wrapper {
+            max-height: 250px;
+            padding: 5px 0;
+            overflow: auto;
+            margin: 0;
+            line-height: 1.5;
+
+            li {
+                margin: 0;
+            }
+
+            ul.children {
+                margin-left: 12px;
+            }
+        }
+    }
+
+    .d4p-check-uncheck {
+        font-size: .9em;
+        padding: 0 0 5px;
+        margin: 0 0 5px;
+        border-bottom: 1px dotted #CCC;
+
+        a {
+            text-decoration: none;
+
+            &.d4p-check-all {
+                margin-right: 10px;
+            }
+
+            i {
+                vertical-align: -2px;
+            }
+        }
+    }
+
+    &.d4p-columns-two,
+    &.d4p-columns-three,
+    &.d4p-columns-four,
+    &.d4p-columns-five {
+        .d4p-inside-wrapper {
+            column-gap: 2em;
+            column-rule: 1px solid #DDD;
+        }
+    }
+
+    &.d4p-columns-two {
+        .d4p-inside-wrapper {
+            column-count: 2;
+        }
+    }
+
+    &.d4p-columns-three {
+        .d4p-inside-wrapper {
+            column-count: 3;
+        }
+    }
+
+    &.d4p-columns-four {
+        .d4p-inside-wrapper {
+            column-count: 4;
+        }
+    }
+
+    &.d4p-columns-five {
+        .d4p-inside-wrapper {
+            column-count: 5;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        label {
+            font-size: 16px;
+        }
+
+        &.d4p-columns-three,
+        &.d4p-columns-four,
+        &.d4p-columns-five {
+            .d4p-inside-wrapper {
+                column-count: 2;
+            }
+        }
+    }
+
+    @media screen and (max-width: 479px) {
+        &.d4p-columns-two,
+        &.d4p-columns-three,
+        &.d4p-columns-four,
+        &.d4p-columns-five {
+            .d4p-inside-wrapper {
+                column-count: 1;
+            }
+        }
+    }
+}
+
+.d4p-background-job-messages-wrapper {
+    .d4p-background-job-messages {
+        font-family: monospace;
+        font-size: .9em;
+        max-height: 415px;
+        overflow: auto;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: .25em;
+
+            li.__message {
+                display: flex;
+                padding: .25em .5em;
+                gap: .5em;
+                align-items: center;
+                justify-content: flex-start;
+
+                > span {
+                    display: block;
+                }
+
+                .__icon {
+                    background: #FFF;
+                    border-radius: 5px;
+                    padding: 0.1em 0.3em;
+                }
+
+                .__content {
+
+                }
+
+                &.__message-info {
+                    background-color: #EBFFEF;
+                }
+
+                &.__message-activity {
+                    background-color: #DFE7FF;
+                }
+
+                &.__message-warning {
+                    background-color: #FFF1DD;
+                }
+
+                &.__message-error {
+                    background-color: #FFEBEB;
+                }
+
+                &.__message-system {
+                    background-color: #F8FFD2;
+                }
+            }
+        }
+    }
+
+    .d4p-background-job-loader {
+        padding: 1em 0 0;
+        display: none;
+    }
+}

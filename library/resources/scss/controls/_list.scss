@@ -1,0 +1,31 @@
+dl.d4p-ctrl-list {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 100%;
+    line-height: 2.2;
+    margin: 0;
+    padding: 0;
+
+    dt {
+        flex: 0 0 30%;
+        word-break: break-all;
+        margin: 0;
+        font-weight: bold;
+    }
+
+    dd {
+        margin: 0 0 0 auto;
+        text-align: left;
+        flex: 0 0 70%;
+        word-break: break-all;
+    }
+}
+
+.d4p-ctrl-tabs-content {
+    dl.d4p-ctrl-list:not(:first-child) {
+        margin: 1em 0 0;
+        padding: 1em 0 0;
+        border-top: 1px solid #DDD;
+    }
+}

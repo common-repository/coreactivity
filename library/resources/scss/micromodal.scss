@@ -1,0 +1,184 @@
+@import 'includes/_variables';
+
+@keyframes #{$micromodal}-fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes #{$micromodal}-fade-out {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes #{$micromodal}-slide-in {
+    from {
+        transform: translateY(15%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes #{$micromodal}-slide-out {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10%);
+    }
+}
+
+.#{$micromodal} {
+    &.#{$micromodal}-slide {
+        display: none;
+
+        &.is-open {
+            display: block;
+        }
+
+        .#{$micromodal}__container,
+        .#{$micromodal}__overlay {
+            will-change: transform;
+        }
+    }
+
+    &.#{$micromodal}-slide[aria-hidden="false"] {
+        .#{$micromodal}__overlay {
+            animation: #{$micromodal}-fade-in .3s cubic-bezier(0.0, 0.0, 0.2, 1);
+        }
+
+        .#{$micromodal}__container {
+            animation: #{$micromodal}-slide-in .3s cubic-bezier(0, 0, .2, 1);
+        }
+    }
+
+    &.#{$micromodal}-slide[aria-hidden="true"] {
+        .#{$micromodal}__overlay {
+            animation: #{$micromodal}-fade-out .3s cubic-bezier(0.0, 0.0, 0.2, 1);
+        }
+
+        .#{$micromodal}__container {
+            animation: #{$micromodal}-slide-out .3s cubic-bezier(0, 0, .2, 1);
+        }
+    }
+
+    .#{$micromodal}__overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+
+    .#{$micromodal}__container {
+        background-color: #FFF;
+        padding: 0;
+        width: 95%;
+        max-width: 720px;
+        border-radius: 4px;
+        overflow-y: auto;
+        box-sizing: border-box;
+        z-index: 10000;
+
+        .#{$micromodal}__footer {
+            padding: 15px;
+            background-color: #EEE;
+            border-top: 1px solid #DDD;
+        }
+
+        .#{$micromodal}__header {
+            display: flex;
+            padding: 15px;
+            background-color: #EEE;
+            border-bottom: 1px solid #DDD;
+            justify-content: space-between;
+            align-items: center;
+
+            .#{$micromodal}__title {
+                margin-top: 0;
+                margin-bottom: 0;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 1;
+                color: #111;
+                box-sizing: border-box;
+            }
+
+            .#{$micromodal}__close {
+                background: transparent;
+                font-weight: bold;
+                color: #00449E;
+                border: 0;
+                padding: 0;
+
+                &:before {
+                    content: "\2715";
+                }
+            }
+        }
+
+        .#{$micromodal}__content {
+            padding: 0;
+            margin: 0;
+            line-height: 1.5;
+            color: rgba(0, 0, 0, .8);
+            max-height: calc(100vh - 200px);
+            overflow: auto;
+        }
+
+        .#{$micromodal}__footer {
+            .#{$micromodal}__btn {
+                font-size: 13px;
+                padding: 8px 24px;
+                background-color: #C4C4C4;
+                color: #000;
+                border-radius: .25rem;
+                border-style: none;
+                border-width: 0;
+                cursor: pointer;
+                -webkit-appearance: button;
+                text-transform: none;
+                overflow: visible;
+                line-height: 1.15;
+                margin: 0;
+                will-change: transform;
+                backface-visibility: hidden;
+                transform: translateZ(0);
+                transition: -webkit-transform .25s ease-out;
+                transition: transform .25s ease-out;
+
+                -moz-osx-font-smoothing: grayscale;
+                -webkit-backface-visibility: hidden;
+
+                &:active,
+                &:hover {
+                    background-image: none;
+                    background-color: #DDD;
+                }
+
+                &.#{$micromodal}__btn-primary {
+                    background-color: #00449E;
+                    color: #FFF;
+
+                    &:active,
+                    &:hover {
+                        background-color: #0052BB;
+                    }
+                }
+            }
+        }
+    }
+}

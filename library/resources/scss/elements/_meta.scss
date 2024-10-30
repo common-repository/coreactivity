@@ -1,0 +1,203 @@
+.d4plib-#{$library-code}-meta-box-wrapper {
+    box-sizing: border-box;
+
+    * {
+        box-sizing: border-box;
+    }
+
+    hr {
+        margin: 1em 0;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+    }
+
+    .wp-tab-bar {
+        margin-bottom: 5px;
+
+        li {
+            padding: 5px 10px 8px;
+
+            button {
+                background: none;
+                padding: 0;
+                margin: 0;
+                border: 0;
+                cursor: pointer;
+
+                i.d4p-icon {
+                    margin-right: 4px;
+                }
+            }
+
+            &.wp-tab-active {
+                button {
+                    color: var(--wp-admin-theme-color);
+                }
+            }
+
+            span.dashicons {
+                margin-right: 4px;
+            }
+        }
+    }
+
+    .wp-tab-panel {
+        max-height: 360px;
+        padding: 1em;
+        overflow: auto;
+    }
+
+    h3 {
+        margin: 0 0 .75em;
+        font-size: 1.4em;
+    }
+
+    h4 {
+        margin: 0 0 .5em;
+        font-size: 1.2em;
+    }
+
+    .__row {
+        display: flex;
+        column-gap: 2em;
+        row-gap: 1em;
+        margin: 0 0 1em;
+
+        .__column {
+            flex: 0 1 100%;
+
+            &:empty {
+                display: none;
+            }
+        }
+
+        &.__col-two {
+            .__column {
+                flex-basis: calc((100% - 2em) / 2);
+            }
+        }
+
+        &.__col-three {
+            .__column {
+                flex-basis: calc((100% - 4em) / 3);
+            }
+
+            .__column_expanded {
+                flex-basis: calc(100% - (100% - 4em) / 3);
+            }
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+
+            &.__col-three,
+            &.__col-two {
+                .__column {
+                    flex-basis: 100%;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    p,
+    .__element {
+        margin: 1em 0;
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        label {
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+
+        select,
+        input:not([type=checkbox]):not([type=radio]) {
+            display: block;
+            margin-top: .25em;
+        }
+
+        em {
+            display: block;
+            margin-top: .25em;
+        }
+    }
+
+    .__element {
+        .d4p-setting-checkboxes {
+            .d4p-inside-wrapper {
+                display: flex;
+                flex-wrap: wrap;
+
+                label {
+                    flex: 1 1 50%;
+                    font-weight: normal;
+                    word-break: break-all;
+                }
+
+                @media screen and (max-width: 599px) {
+                    flex-direction: column;
+
+                    label {
+                        flex-basis: 100%;
+                    }
+                }
+            }
+        }
+
+        .d4p-setting-checkbox {
+            label {
+                font-weight: normal;
+            }
+        }
+    }
+}
+
+#side-sortables {
+    .d4plib-#{$library-code}-meta-box-wrapper {
+        .wp-tab-bar li button {
+            span {
+                display: none;
+            }
+        }
+
+        .__row {
+            flex-direction: column;
+
+            &.__col-two,
+            &.__col-three {
+                .__column {
+                    flex-basis: 100%;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+
+        .d4p-setting-checkboxes {
+            &.d4p-columns-two,
+            &.d4p-columns-three,
+            &.d4p-columns-four,
+            &.d4p-columns-five {
+                .d4p-inside-wrapper {
+                    column-count: 1;
+                }
+            }
+        }
+    }
+}

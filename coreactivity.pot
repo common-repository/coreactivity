@@ -1,0 +1,3050 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural - Forms: nplurals = INTEGER; plural = EXPRESSION;\n"
+"Project-Id-Version: CoreActivity\n"
+"POT-Creation-Date: 07/16/2024 10:33:12 PM\n"
+"Language-Team: Milan Petrovic <support@dev4press.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: GD i18n 2.8; www.dev4press.com\n"
+
+#: core/admin/meta/Users.php:49
+#: core/admin/Settings.php:503
+#: core/admin/Settings.php:537
+#: core/admin/Settings.php:572
+#: core/basic/Wizard.php:186
+msgid "Log"
+msgstr ""
+
+#: core/admin/meta/Users.php:55
+#: core/admin/Settings.php:498
+#: core/admin/Settings.php:532
+#: core/admin/Settings.php:567
+#: core/table/Events.php:97
+msgid "Status"
+msgstr ""
+
+#: core/admin/meta/Users.php:56
+msgid "Last Active"
+msgstr ""
+
+#: core/admin/meta/Users.php:57
+msgid "Last Login"
+msgstr ""
+
+#: core/admin/meta/Users.php:66
+#: core/admin/Data.php:50
+msgid "Online"
+msgstr ""
+
+#: core/admin/meta/Users.php:68
+msgid "Offline"
+msgstr ""
+
+#: core/admin/panel/About.php:20
+#: forms/content-dashboard-overall.php:22
+msgid "Components"
+msgstr ""
+
+#: core/admin/panel/Dashboard.php:22
+#: core/admin/Help.php:83
+#: core/admin/Help.php:84
+#: core/admin/Plugin.php:136
+#: core/basic/AdminBar.php:107
+#: forms/content-dashboard-overall.php:34
+msgid "Events"
+msgstr ""
+
+#: core/admin/panel/Dashboard.php:30
+#: forms/content-dashboard-blog.php:19
+msgid "Network Dashboard"
+msgstr ""
+
+#: core/admin/panel/Dashboard.php:39
+#: core/admin/Help.php:66
+#: core/admin/Help.php:67
+#: core/admin/Plugin.php:129
+#: core/basic/AdminBar.php:114
+#: core/table/Events.php:102
+#: core/table/Logs.php:900
+#: core/table/Logs.php:920
+#: core/table/Logs.php:1017
+#: core/table/Logs.php:1030
+#: core/table/Logs.php:1095
+#: core/table/Logs.php:1108
+#: core/table/Logs.php:976
+msgid "Logs"
+msgstr ""
+
+#: core/admin/panel/Events.php:21
+#: core/admin/panel/Logs.php:22
+msgid "Rows"
+msgstr ""
+
+#: core/admin/panel/Settings.php:19
+msgid "Logging Data"
+msgstr ""
+
+#: core/admin/panel/Settings.php:21
+msgid "Logging"
+msgstr ""
+
+#: core/admin/panel/Settings.php:23
+msgid "Settings related to logging of main activity information."
+msgstr ""
+
+#: core/admin/panel/Settings.php:26
+msgid "Optional Data"
+msgstr ""
+
+#: core/admin/panel/Settings.php:28
+msgid "Settings related to logging of optional data."
+msgstr ""
+
+#: core/admin/panel/Settings.php:31
+msgid "Exceptions"
+msgstr ""
+
+#: core/admin/panel/Settings.php:33
+msgid "Some of the components can use these exceptions to limit the logging and skip some events."
+msgstr ""
+
+#: core/admin/panel/Settings.php:36
+#: core/admin/Settings.php:308
+#: core/basic/Wizard.php:185
+msgid "Geo Location"
+msgstr ""
+
+#: core/admin/panel/Settings.php:38
+msgid "Plugin can use online geolocation services, or the local database for geolocation."
+msgstr ""
+
+#: core/admin/panel/Settings.php:41
+msgid "Logs Panel"
+msgstr ""
+
+#: core/admin/panel/Settings.php:43
+msgid "Log Core"
+msgstr ""
+
+#: core/admin/panel/Settings.php:45
+msgid "Settings related to some aspects for the Logs panel display."
+msgstr ""
+
+#: core/admin/panel/Settings.php:48
+#: core/admin/Settings.php:511
+#: core/admin/Settings.php:545
+#: core/admin/Settings.php:580
+msgid "Advanced"
+msgstr ""
+
+#: core/admin/panel/Settings.php:50
+msgid "More advanced settings that should not be changed for most websites."
+msgstr ""
+
+#: core/admin/panel/Settings.php:53
+msgid "Tracking"
+msgstr ""
+
+#: core/admin/panel/Settings.php:55
+msgid "Features"
+msgstr ""
+
+#: core/admin/panel/Settings.php:57
+msgid "Additional settings for some of the plugin tracking features."
+msgstr ""
+
+#: core/admin/panel/Settings.php:60
+#: core/admin/panel/Tools.php:30
+#: core/basic/Wizard.php:187
+#: core/components/Notification.php:75
+#: core/table/Events.php:105
+msgid "Notifications"
+msgstr ""
+
+#: core/admin/panel/Settings.php:62
+msgid "Settings related to instant, daily and weekly email notifications."
+msgstr ""
+
+#: core/admin/panel/Settings.php:65
+msgid "Maintenance"
+msgstr ""
+
+#: core/admin/panel/Settings.php:67
+msgid "Settings related to maintenance and cleanup of the log database tables."
+msgstr ""
+
+#: core/admin/panel/Tools.php:18
+msgid "Data Cleanup"
+msgstr ""
+
+#: core/admin/panel/Tools.php:21
+msgid "Cleanup"
+msgstr ""
+
+#: core/admin/panel/Tools.php:22
+msgid "Using this tool, you can cleanup log entries."
+msgstr ""
+
+#: core/admin/panel/Tools.php:33
+msgid "Configuration"
+msgstr ""
+
+#: core/admin/panel/Tools.php:35
+#: core/admin/Plugin.php:106
+msgid "Update"
+msgstr ""
+
+#: core/admin/panel/Tools.php:36
+msgid "Using this tool, bulk enable or disable events for notifications."
+msgstr ""
+
+#: core/admin/AJAX.php:113
+msgid "WhoIs check failed"
+msgstr ""
+
+#: core/admin/Data.php:12
+msgid "Full IP"
+msgstr ""
+
+#: core/admin/Data.php:13
+msgid "Mask last Byte"
+msgstr ""
+
+#: core/admin/Data.php:14
+msgid "Mask last 2 Bytes"
+msgstr ""
+
+#: core/admin/Data.php:15
+msgid "Maks whole IP"
+msgstr ""
+
+#: core/admin/Data.php:21
+msgid "Select the data age"
+msgstr ""
+
+#: core/admin/Data.php:22
+msgid "All logged data"
+msgstr ""
+
+#: core/admin/Data.php:23
+msgid "Logged data older than 1 day"
+msgstr ""
+
+#: core/admin/Data.php:24
+msgid "Logged data older than 3 days"
+msgstr ""
+
+#: core/admin/Data.php:25
+msgid "Logged data older than 7 days"
+msgstr ""
+
+#: core/admin/Data.php:26
+msgid "Logged data older than 14 days"
+msgstr ""
+
+#: core/admin/Data.php:27
+msgid "Logged data older than 30 days"
+msgstr ""
+
+#: core/admin/Data.php:28
+msgid "Logged data older than 60 days"
+msgstr ""
+
+#: core/admin/Data.php:29
+msgid "Logged data older than 90 days"
+msgstr ""
+
+#: core/admin/Data.php:30
+msgid "Logged data older than 180 days"
+msgstr ""
+
+#: core/admin/Data.php:31
+msgid "Logged data older than 1 year"
+msgstr ""
+
+#: core/admin/Data.php:32
+msgid "Logged data older than 2 years"
+msgstr ""
+
+#: core/admin/Data.php:51
+#: core/admin/Settings.php:329
+msgid "IP2Location Database"
+msgstr ""
+
+#: core/admin/Data.php:52
+msgid "MaxMind GeoIP2 and GeoLite2 Database"
+msgstr ""
+
+#: core/admin/Data.php:58
+msgid "Lite: Country"
+msgstr ""
+
+#: core/admin/Data.php:59
+msgid "Lite: Country, Region, City"
+msgstr ""
+
+#: core/admin/Data.php:60
+msgid "Lite: Country, Region, City, Location"
+msgstr ""
+
+#: core/admin/Data.php:61
+msgid "Lite: Country, Region, City, Location, ZIP"
+msgstr ""
+
+#: core/admin/Data.php:62
+msgid "Lite: Country, Region, City, Location, ZIP, Timezone"
+msgstr ""
+
+#: core/admin/Data.php:68
+msgid "GeoLite2: Country"
+msgstr ""
+
+#: core/admin/Data.php:69
+msgid "GeoLite2: Country, City, Location, ZIP, Timezone"
+msgstr ""
+
+#: core/admin/Help.php:38
+msgid "Basics"
+msgstr ""
+
+#: core/admin/Help.php:39
+#: forms/content-dashboard-overall.php:16
+msgid "Components and Events"
+msgstr ""
+
+#: core/admin/Help.php:40
+msgid "Some components and events included in coreActivity are not always registered. Some components are made for WordPress Multisite, and some components require specific third-party plugins. The widget on this panel, and list of all Events show actual status of registered components and available events."
+msgstr ""
+
+#: core/admin/Help.php:41
+msgid "To stop all the logging, you can use the Toggle button on the Dashboard to disable or later enable the logging system. This can be useful if you are testing something, and want to temporarily disable the logging."
+msgstr ""
+
+#: core/admin/Help.php:42
+msgid "All Components and Events"
+msgstr ""
+
+#: core/admin/Help.php:43
+#: forms/content-dashboard-database.php:15
+msgid "Database Statistics"
+msgstr ""
+
+#: core/admin/Help.php:44
+msgid "Plugin has 3 database tables, and the widget on the dashboard shows the current status of those tables, number of records, total size, free space and more."
+msgstr ""
+
+#: core/admin/Help.php:45
+#: forms/content-dashboard-location.php:16
+msgid "GEO Location"
+msgstr ""
+
+#: core/admin/Help.php:46
+msgid "To identify the country for each logged event, plugin can use logged IP to find the country and city. For this process, plugin can use online GEO location service or local database."
+msgstr ""
+
+#: core/admin/Help.php:47
+#: forms/content-dashboard-location.php:81
+msgid "GEO Location Settings"
+msgstr ""
+
+#: core/admin/Help.php:54
+msgid "Statistics"
+msgstr ""
+
+#: core/admin/Help.php:55
+msgid "Quick Sweep"
+msgstr ""
+
+#: core/admin/Help.php:56
+msgid "The simple statistical overview, shows number of log entries for all logged components in the last 30 days. Click on the component icon button, to go to the Logs page filtered by the selected component."
+msgstr ""
+
+#: core/admin/Help.php:57
+msgid "Main Events panel lists counts for each component and event based on all the log records currently in the database."
+msgstr ""
+
+#: core/admin/Help.php:68
+msgid "This is the core of the coreActivity plugin, panel where all the logged records are displayed. There are few important things to know."
+msgstr ""
+
+#: core/admin/Help.php:70
+msgid "Depending on your screen size, the table can have strange layout due to the number of columns it can show. Make sure to check out the Screen Options tab to disable some of the columns. And, some columns related options are available in the plugins settings."
+msgstr ""
+
+#: core/admin/Help.php:71
+msgid "To see all additional information about each event, click on the toggle button on the right side of the table to show hidden Metadata row."
+msgstr ""
+
+#: core/admin/Help.php:72
+msgid "Based on the current view mode, some columns and filter elements can be automatically hidden."
+msgstr ""
+
+#: core/admin/Help.php:74
+msgid "Logs Panel Settings"
+msgstr ""
+
+#: core/admin/Help.php:85
+msgid "This panel shows all the registered components and events, along with the status toggle, and toggles for the notifications."
+msgstr ""
+
+#: core/admin/Help.php:87
+msgid "For each event, you have additional buttons to filter or view the Logs for the selected component or event, and button to open the Cleanup tools panel to remove selected component or event only."
+msgstr ""
+
+#: core/admin/Help.php:88
+msgid "Log records counts are based on the current number of records in the logs belonging to each event."
+msgstr ""
+
+#: core/admin/Plugin.php:187
+msgid "coreActivity events logging has been disabled. You can enable it again from the plugin Dashboard."
+msgstr ""
+
+#: core/admin/Plugin.php:188
+msgid "coreActivity Dashboard"
+msgstr ""
+
+#: core/admin/Plugin.php:98
+msgid "Install"
+msgstr ""
+
+#: core/admin/Plugin.php:101
+msgid "Before you continue, make sure plugin installation was successful."
+msgstr ""
+
+#: core/admin/Plugin.php:109
+msgid "Before you continue, make sure plugin was successfully updated."
+msgstr ""
+
+#: core/admin/Plugin.php:117
+msgid "Overview"
+msgstr ""
+
+#: core/admin/Plugin.php:123
+msgid "About"
+msgstr ""
+
+#: core/admin/Plugin.php:131
+msgid "Detailed log with all the logged activities for all supported events."
+msgstr ""
+
+#: core/admin/Plugin.php:138
+msgid "All the events registered for activity tracking and logging."
+msgstr ""
+
+#: core/admin/Plugin.php:143
+#: core/basic/AdminBar.php:121
+msgid "Settings"
+msgstr ""
+
+#: core/admin/Plugin.php:149
+#: core/basic/AdminBar.php:128
+msgid "Tools"
+msgstr ""
+
+#: core/admin/Plugin.php:158
+#: core/admin/Settings.php:644
+msgid "Setup Wizard"
+msgstr ""
+
+#: core/admin/Plugin.php:198
+msgid "The cleanup operation has been completed."
+msgstr ""
+
+#: core/admin/Plugin.php:201
+msgid "Events activity status has been updated."
+msgstr ""
+
+#: core/admin/Plugin.php:204
+msgid "Events notifications status has been updated."
+msgstr ""
+
+#: core/admin/Settings.php:37
+msgid "Cleanup Period"
+msgstr ""
+
+#: core/admin/Settings.php:44
+msgid "Log entries age"
+msgstr ""
+
+#: core/admin/Settings.php:55
+msgid "Cleanup Events"
+msgstr ""
+
+#: core/admin/Settings.php:62
+msgid "Events to remove"
+msgstr ""
+
+#: core/admin/Settings.php:75
+msgid "Logging Process"
+msgstr ""
+
+#: core/admin/Settings.php:82
+msgid "Skip Duplicates"
+msgstr ""
+
+#: core/admin/Settings.php:82
+msgid "Plugin can hold of logging duplicated events for a period of 24 hours by detecting duplicated events."
+msgstr ""
+
+#: core/admin/Settings.php:83
+msgid "Duplication skipping affects only some components and events that can produce exactly the same event entry over and over again."
+msgstr ""
+
+#: core/admin/Settings.php:84
+msgid "Duplication is tracked over the period of 24 hours, allowing for repeated duplicated events to be logged only once a day."
+msgstr ""
+
+#: core/admin/Settings.php:85
+msgid "IP, user ID, logged date and time, and user agent are not taken into account when determining if the event is duplicate."
+msgstr ""
+
+#: core/admin/Settings.php:92
+msgid "Visitor IP"
+msgstr ""
+
+#: core/admin/Settings.php:99
+msgid "Use Forwarded IPs"
+msgstr ""
+
+#: core/admin/Settings.php:99
+msgid "To get visitor IP, plugin can only use main REMOTE_ADDR key, or it can test for one of the possible FORWARD keys."
+msgstr ""
+
+#: core/admin/Settings.php:100
+msgid "Many of the request header keys can be faked before reaching the website, with the exception of REMOTE_ADDR key which is the only key that is safe from tampering."
+msgstr ""
+
+#: core/admin/Settings.php:101
+msgid "But, REMOTE_ADDR is the IP of the machine connecting to your website, it doesn't have to be an IP of the machine actually making the request."
+msgstr ""
+
+#: core/admin/Settings.php:102
+msgid "If your visitor is behind proxy, or some other network interface, the real visitor IP can be set inside of the FORWARD keys."
+msgstr ""
+
+#: core/admin/Settings.php:103
+msgid "If you want to always check if one of the FORWARD keys is set, you need to enable this option, but there is no guarantee that any of the forwarded IPs will be a real one."
+msgstr ""
+
+#: core/admin/Settings.php:104
+msgid "When FORWARDED and REMOTE_ADDR are different, plugin will log both IPs (this was implemented from plugin version 2.1)."
+msgstr ""
+
+#: core/admin/Settings.php:105
+msgid "If your website is behind CloudFlare, plugin will be able to detect this, and will get real IP, and this option will not be used."
+msgstr ""
+
+#: core/admin/Settings.php:114
+msgid "IP Location Data"
+msgstr ""
+
+#: core/admin/Settings.php:121
+#: forms/dialog-data.php:96
+msgid "Country Code"
+msgstr ""
+
+#: core/admin/Settings.php:121
+msgid "Each log entry IP will be geo-located, and if possible, the country code will be stored in the main log database table."
+msgstr ""
+
+#: core/admin/Settings.php:123
+msgid "Each time logging is requested, plugin will try to determine the country for the IP and save it in the main database."
+msgstr ""
+
+#: core/admin/Settings.php:124
+msgid "Country for IP can change over time (especially for the IP4), and this will add permanent mark of the country into the log at the time it is logged."
+msgstr ""
+
+#: core/admin/Settings.php:132
+msgid "GEOLocation Settings"
+msgstr ""
+
+#: core/admin/Settings.php:136
+msgid "Expanded Meta Information"
+msgstr ""
+
+#: core/admin/Settings.php:136
+msgid "Any additional geolocation data will be logged as a meta data."
+msgstr ""
+
+#: core/admin/Settings.php:138
+msgid "This data, along the country code for the IP will be later used to display IP location in the log."
+msgstr ""
+
+#: core/admin/Settings.php:139
+msgid "Information provided by the geolocation can contain only country, or it can have expanded information."
+msgstr ""
+
+#: core/admin/Settings.php:147
+#: core/admin/Settings.php:191
+#: core/admin/Settings.php:444
+msgid "Meta Data"
+msgstr ""
+
+#: core/admin/Settings.php:150
+msgid "Standard"
+msgstr ""
+
+#: core/admin/Settings.php:154
+msgid "User Agent"
+msgstr ""
+
+#: core/admin/Settings.php:154
+msgid "If the request has user agent string, it will be logged as the log entry meta data."
+msgstr ""
+
+#: core/admin/Settings.php:155
+msgid "User agent can be used to extract information about the request source device, OS, browsers, and more."
+msgstr ""
+
+#: core/admin/Settings.php:156
+msgid "User agent data is not always reliable, because request source can spoof the user agent and set it to anything."
+msgstr ""
+
+#: core/admin/Settings.php:158
+msgid "Referer"
+msgstr ""
+
+#: core/admin/Settings.php:158
+msgid "If the request has referer, it will be logged as the log entry meta data."
+msgstr ""
+
+#: core/admin/Settings.php:162
+msgid "Device Detection"
+msgstr ""
+
+#: core/admin/Settings.php:166
+msgid "Device Information"
+msgstr ""
+
+#: core/admin/Settings.php:166
+msgid "Based on the user agent, detect the information about the device and store it as meta when the request is logged."
+msgstr ""
+
+#: core/admin/Settings.php:167
+msgid "Device detection will be done at the request log time, and will be stored as meta data."
+msgstr ""
+
+#: core/admin/Settings.php:168
+#: core/admin/Settings.php:173
+msgid "Device detection data will take additional space in the meta table."
+msgstr ""
+
+#: core/admin/Settings.php:169
+msgid "If you don't save this as metadata, plugin can still display device detection data later, if you enable User Agent logging."
+msgstr ""
+
+#: core/admin/Settings.php:171
+msgid "Filter Information"
+msgstr ""
+
+#: core/admin/Settings.php:171
+msgid "Simplified detected information will be stored as individual meta elements that can be used for the log filtering."
+msgstr ""
+
+#: core/admin/Settings.php:172
+msgid "At this time, coreActivity plugin doesn't have filter by meta data implemented!"
+msgstr ""
+
+#: core/admin/Settings.php:178
+msgid "Event Specific"
+msgstr ""
+
+#: core/admin/Settings.php:182
+msgid "Plugin or Theme Descriptions"
+msgstr ""
+
+#: core/admin/Settings.php:182
+msgid "Descriptions are available for plugins and themes, but they can be on the longer side, and usually are not useful for log analysis."
+msgstr ""
+
+#: core/admin/Settings.php:183
+msgid "Transient Value"
+msgstr ""
+
+#: core/admin/Settings.php:183
+msgid "In most cases, transient values can be huge, since transients are used as a cache of sorts, and it is not a good idea to log the actual value for transient. Transients are often changing and usually serialized."
+msgstr ""
+
+#: core/admin/Settings.php:198
+#: core/log/Activity.php:101
+msgid "Post Meta"
+msgstr ""
+
+#: core/admin/Settings.php:198
+#: core/admin/Settings.php:199
+#: core/admin/Settings.php:200
+#: core/admin/Settings.php:201
+msgid "Add one or more options (exact meta key name) to skip from logging."
+msgstr ""
+
+#: core/admin/Settings.php:199
+#: core/log/Activity.php:108
+msgid "User Meta"
+msgstr ""
+
+#: core/admin/Settings.php:200
+#: core/log/Activity.php:104
+msgid "Term Meta"
+msgstr ""
+
+#: core/admin/Settings.php:201
+#: core/log/Activity.php:106
+msgid "Comment Meta"
+msgstr ""
+
+#: core/admin/Settings.php:207
+msgid "Component: Options"
+msgstr ""
+
+#: core/admin/Settings.php:210
+msgid "General Rules"
+msgstr ""
+
+#: core/admin/Settings.php:214
+msgid "Action Scheduler Locks"
+msgstr ""
+
+#: core/admin/Settings.php:214
+msgid "Many WordPress plugins use Actions Scheduler (as a plugin or internal component), and it can often change one or more locking options flooding the log with entries. With this enabled, any locking option of the Action Scheduler will be ignored when logging options changes."
+msgstr ""
+
+#: core/admin/Settings.php:218
+#: core/admin/Settings.php:231
+#: core/admin/Settings.php:244
+#: core/admin/Settings.php:257
+#: core/admin/Settings.php:270
+#: core/admin/Settings.php:283
+msgid "Specific Options"
+msgstr ""
+
+#: core/admin/Settings.php:222
+#: core/admin/Settings.php:235
+msgid "Options to skip"
+msgstr ""
+
+#: core/admin/Settings.php:222
+#: core/admin/Settings.php:235
+msgid "Add one or more options (exact option name) to skip from logging."
+msgstr ""
+
+#: core/admin/Settings.php:228
+msgid "Component: Sitemeta"
+msgstr ""
+
+#: core/admin/Settings.php:241
+msgid "Component: Notification"
+msgstr ""
+
+#: core/admin/Settings.php:248
+msgid "Notifications to Skip"
+msgstr ""
+
+#: core/admin/Settings.php:248
+msgid "Add one or more notifications (exact option name) to skip from logging."
+msgstr ""
+
+#: core/admin/Settings.php:254
+msgid "Component: WordPress"
+msgstr ""
+
+#: core/admin/Settings.php:261
+msgid "CRON to Skip"
+msgstr ""
+
+#: core/admin/Settings.php:261
+msgid "Add one or more CRON jobs (exact option name) to skip from logging."
+msgstr ""
+
+#: core/admin/Settings.php:267
+msgid "Component: Plugin"
+msgstr ""
+
+#: core/admin/Settings.php:274
+msgid "Plugins to Skip"
+msgstr ""
+
+#: core/admin/Settings.php:274
+msgid "Add one or more plugins (exact option name) to skip from logging."
+msgstr ""
+
+#: core/admin/Settings.php:280
+msgid "Component: Theme"
+msgstr ""
+
+#: core/admin/Settings.php:287
+msgid "Themes to Skip"
+msgstr ""
+
+#: core/admin/Settings.php:287
+msgid "Add one or more themes (exact option name) to skip from logging."
+msgstr ""
+
+#: core/admin/Settings.php:293
+msgid "Component: Errors"
+msgstr ""
+
+#: core/admin/Settings.php:296
+msgid "File Names"
+msgstr ""
+
+#: core/admin/Settings.php:300
+msgid "Regular Expressions"
+msgstr ""
+
+#: core/admin/Settings.php:300
+msgid "If the request is for a file, it will be checked with provided regular expressions. If the file matches any of these, it will not be logged."
+msgstr ""
+
+#: core/admin/Settings.php:315
+#: core/table/Logs.php:190
+#: forms/dialog-data.php:20
+msgid "Method"
+msgstr ""
+
+#: core/admin/Settings.php:315
+msgid "Online geolocation is usually slower, it does make a call to the online service for geo-locating the IP."
+msgstr ""
+
+#: core/admin/Settings.php:317
+msgid "Online geolocation can be slower, since it depends on the external services to work. It can also happen for the request to timeout or fail."
+msgstr ""
+
+#: core/admin/Settings.php:318
+msgid "Database approach is the best solution since the database is on your server, and it is much faster to get the location, without having any issues that online services can have."
+msgstr ""
+
+#: core/admin/Settings.php:319
+msgid "If the selected database method is not working (database file is missing), plugin will fallback to use Online method."
+msgstr ""
+
+#: core/admin/Settings.php:339
+msgid "Token"
+msgstr ""
+
+#: core/admin/Settings.php:339
+msgid "Token is required to download and updated database file."
+msgstr ""
+
+#: core/admin/Settings.php:341
+msgid "IP2Location has free and premium services and databases. For this plugin purposes, Lite database is quite sufficient."
+msgstr ""
+
+#: core/admin/Settings.php:342
+msgid "To get the download token, register on the IP2Location Lite website, and once you are logged in there, get the download token and past it in this field."
+msgstr ""
+
+#: core/admin/Settings.php:343
+#: core/admin/Settings.php:380
+msgid "Plugin will attempt to download database file once a week during regular weekly maintenance."
+msgstr ""
+
+#: core/admin/Settings.php:353
+msgid "Register and Get token on IP2Location Lite"
+msgstr ""
+
+#: core/admin/Settings.php:357
+#: core/admin/Settings.php:394
+msgid "Database"
+msgstr ""
+
+#: core/admin/Settings.php:357
+#: core/admin/Settings.php:394
+msgid "Depending on the database you choose, you will get additional information for each IP."
+msgstr ""
+
+#: core/admin/Settings.php:359
+msgid "Country database is about 9MB in size, other databases can be up to 200MB in size."
+msgstr ""
+
+#: core/admin/Settings.php:360
+#: core/admin/Settings.php:396
+msgid "If you choose Country only database, you will be able to log in only IP country code."
+msgstr ""
+
+#: core/admin/Settings.php:366
+msgid "GEOIP2 Database"
+msgstr ""
+
+#: core/admin/Settings.php:376
+msgid "License"
+msgstr ""
+
+#: core/admin/Settings.php:376
+msgid "License is required to download and updated database file."
+msgstr ""
+
+#: core/admin/Settings.php:378
+msgid "GEOIP2 has free and premium services and databases. For this plugin purposes, Lite database is quite sufficient."
+msgstr ""
+
+#: core/admin/Settings.php:379
+msgid "To get the download license, register on the GEOIP2 website, and once you are logged in there, generate new license."
+msgstr ""
+
+#: core/admin/Settings.php:390
+msgid "Register and Get token on GeoIP2"
+msgstr ""
+
+#: core/admin/Settings.php:406
+msgid "Content Display"
+msgstr ""
+
+#: core/admin/Settings.php:409
+#: core/table/Logs.php:196
+#: core/table/Logs.php:746
+#: forms/dialog-data.php:16
+msgid "IP"
+msgstr ""
+
+#: core/admin/Settings.php:413
+msgid "IP GEO location flag"
+msgstr ""
+
+#: core/admin/Settings.php:413
+msgid "Show country for the logged IP."
+msgstr ""
+
+#: core/admin/Settings.php:414
+msgid "IPv4 Display"
+msgstr ""
+
+#: core/admin/Settings.php:414
+msgid "You can hide parts of the IP address when displayed. This will work for IPv4 address only, and it doesn't affect use of IP in URLs for filtering."
+msgstr ""
+
+#: core/admin/Settings.php:418
+msgid "Other Information"
+msgstr ""
+
+#: core/admin/Settings.php:422
+msgid "Simplified values"
+msgstr ""
+
+#: core/admin/Settings.php:422
+msgid "Values for columns Component and Event will be displayed using labels."
+msgstr ""
+
+#: core/admin/Settings.php:423
+msgid "User avatar"
+msgstr ""
+
+#: core/admin/Settings.php:423
+msgid "Show user avatar for logs that are related to the user."
+msgstr ""
+
+#: core/admin/Settings.php:424
+msgid "Linked Blog ID"
+msgstr ""
+
+#: core/admin/Settings.php:424
+msgid "In the multisite network mode, link the Blog ID to the Blog URL"
+msgstr ""
+
+#: core/admin/Settings.php:430
+msgid "Table Layout"
+msgstr ""
+
+#: core/admin/Settings.php:433
+msgid "Basic Data"
+msgstr ""
+
+#: core/admin/Settings.php:437
+msgid "Request as Column"
+msgstr ""
+
+#: core/admin/Settings.php:437
+msgid "Request value can be quite long, and it can cause layout issues if displayed as column. If this option is displayed, Request will be displayed as Meta value in the hidden Meta row."
+msgstr ""
+
+#: core/admin/Settings.php:438
+msgid "Protocol as Column"
+msgstr ""
+
+#: core/admin/Settings.php:438
+msgid "Protocol value would most likely be the same for each request, especially if your webserver is behind some sort of proxy setup. If this option is displayed, Protocol will be displayed as Meta value in the hidden Meta row."
+msgstr ""
+
+#: core/admin/Settings.php:439
+msgid "Object Type Column"
+msgstr ""
+
+#: core/admin/Settings.php:439
+msgid "If enabled, Object Type will have own column, if disabled, it will be displayed as a part of the Object column."
+msgstr ""
+
+#: core/admin/Settings.php:440
+msgid "Device Detection Column"
+msgstr ""
+
+#: core/admin/Settings.php:440
+msgid "Show the Device Detection information, if available."
+msgstr ""
+
+#: core/admin/Settings.php:448
+msgid "Meta Column"
+msgstr ""
+
+#: core/admin/Settings.php:448
+msgid "By default, all meta data is displayed in the hidden Meta row under main row because a lot of metadata can be quite large and will break table layout or will be unreadable. If you enable Meta column, some of the meta data will be displayed in this column, depending on the event."
+msgstr ""
+
+#: core/admin/Settings.php:454
+msgid "Log Panel Updates"
+msgstr ""
+
+#: core/admin/Settings.php:461
+msgid "Live Updates"
+msgstr ""
+
+#: core/admin/Settings.php:461
+msgid "Live AJAX requests every 10 seconds to get the latest logged events. The live functionality with take into account the Log panel current filters and view settings."
+msgstr ""
+
+#: core/admin/Settings.php:469
+msgid "Users Online Status"
+msgstr ""
+
+#: core/admin/Settings.php:476
+msgid "Online Window"
+msgstr ""
+
+#: core/admin/Settings.php:476
+msgid "Knowing if the user is online or not is not easy to achieve without session tracking, which is not advisable in WordPress powered websites. The closest online status is the last activity with some added time for approximation."
+msgstr ""
+
+#: core/admin/Settings.php:477
+msgid "Do not set this value too high, 5 to 10 minutes (in seconds) is more than enough."
+msgstr ""
+
+#: core/admin/Settings.php:479
+msgid "seconds"
+msgstr ""
+
+#: core/admin/Settings.php:491
+#: forms/content-tools-notifications.php:20
+msgid "Instant Notifications"
+msgstr ""
+
+#: core/admin/Settings.php:498
+msgid "If enabled, plugin will send instant notifications when eligible events are logged. The notifications will not be completely instant, because that can lead to the huge number of emails sent if some events occur often. Instead, after instant notification is sent, plugin will not send a new one during the predefined delay, and next one will include all eligible events from that period."
+msgstr ""
+
+#: core/admin/Settings.php:499
+#: core/admin/Settings.php:533
+#: core/admin/Settings.php:568
+msgid "Emails"
+msgstr ""
+
+#: core/admin/Settings.php:499
+#: core/admin/Settings.php:533
+#: core/admin/Settings.php:568
+msgid "One or more emails to send the notifications. If empty, it will use the website admin email."
+msgstr ""
+
+#: core/admin/Settings.php:507
+#: core/admin/Settings.php:541
+#: core/admin/Settings.php:576
+msgid "Skip Logging"
+msgstr ""
+
+#: core/admin/Settings.php:507
+#: core/admin/Settings.php:541
+#: core/admin/Settings.php:576
+msgid "If enabled, this email notification will not be logged by the plugin."
+msgstr ""
+
+#: core/admin/Settings.php:515
+msgid "Delay"
+msgstr ""
+
+#: core/admin/Settings.php:515
+msgid "This is the shortest delay between two instant notifications emails."
+msgstr ""
+
+#: core/admin/Settings.php:516
+msgid "Minutes"
+msgstr ""
+
+#: core/admin/Settings.php:525
+msgid "Daily Digest Notifications"
+msgstr ""
+
+#: core/admin/Settings.php:532
+msgid "If enabled, plugin will send daily digest email with all eligible events from the previous day."
+msgstr ""
+
+#: core/admin/Settings.php:549
+#: core/admin/Settings.php:550
+#: core/admin/Settings.php:585
+#: core/admin/Settings.php:586
+msgid "Hour"
+msgstr ""
+
+#: core/admin/Settings.php:549
+#: core/admin/Settings.php:585
+msgid "This is the hour of the day when the daily digest is created."
+msgstr ""
+
+#: core/admin/Settings.php:560
+msgid "Weekly Digest Notifications"
+msgstr ""
+
+#: core/admin/Settings.php:567
+msgid "If enabled, plugin will send weekly digest email with all eligible events from the previous 7 days."
+msgstr ""
+
+#: core/admin/Settings.php:584
+msgid "Day"
+msgstr ""
+
+#: core/admin/Settings.php:584
+msgid "This is day of the week when the daily digest is created."
+msgstr ""
+
+#: core/admin/Settings.php:598
+msgid "Auto Cleanup"
+msgstr ""
+
+#: core/admin/Settings.php:605
+msgid "Remove old entries"
+msgstr ""
+
+#: core/admin/Settings.php:605
+msgid "If enabled, maintenance will be run once a day, and all old entries will be removed."
+msgstr ""
+
+#: core/admin/Settings.php:606
+msgid "Log entries to keep"
+msgstr ""
+
+#: core/admin/Settings.php:606
+msgid "All entries older than the number of months specified here, will be removed during the maintenance."
+msgstr ""
+
+#: core/admin/Settings.php:608
+msgid "months"
+msgstr ""
+
+#: core/admin/Settings.php:617
+msgid "Notices"
+msgstr ""
+
+#: core/admin/Settings.php:624
+msgid "Logging is Disabled"
+msgstr ""
+
+#: core/admin/Settings.php:624
+msgid "If the logging is disabled, on every admin page, plugin will display a notice about it, with link to the plugin dashboard."
+msgstr ""
+
+#: core/admin/Settings.php:630
+msgid "Admin Bar Integration"
+msgstr ""
+
+#: core/admin/Settings.php:637
+msgid "Add Menu"
+msgstr ""
+
+#: core/admin/Settings.php:637
+msgid "Simple menu will be added to the WordPress admin bar, on both admin side and front end, only available to website administrators with quick links to the plugin panels."
+msgstr ""
+
+#: core/admin/Settings.php:638
+msgid "New log entries counter"
+msgstr ""
+
+#: core/admin/Settings.php:638
+msgid "Show number with the new logged entries since the last time you visited the Logs panel."
+msgstr ""
+
+#: core/admin/Settings.php:651
+msgid "Show Setup Wizard"
+msgstr ""
+
+#: core/admin/Settings.php:651
+msgid "If enabled, the Setup Wizard item will be included in the plugin admin side navigation."
+msgstr ""
+
+#: core/base/Content.php:172
+msgid "Post Status Change"
+msgstr ""
+
+#: core/base/Content.php:175
+msgid "Post Deleted"
+msgstr ""
+
+#: core/base/Content.php:178
+msgid "Post Term Relationship Changes"
+msgstr ""
+
+#: core/base/Content.php:181
+msgid "Post Meta Added"
+msgstr ""
+
+#: core/base/Content.php:186
+msgid "Post Meta Updated"
+msgstr ""
+
+#: core/base/Content.php:191
+msgid "Post Meta Deleted"
+msgstr ""
+
+#: core/basic/AdminBar.php:81
+msgid "coreActivity"
+msgstr ""
+
+#: core/basic/Render.php:29
+#: core/table/Logs.php:964
+msgid "Current Request IP"
+msgstr ""
+
+#: core/basic/Render.php:24
+#: core/table/Logs.php:960
+msgid "Server IP"
+msgstr ""
+
+#: core/basic/Render.php:25
+#: core/basic/Render.php:30
+#: core/table/Logs.php:1153
+#: forms/content-dashboard-location.php:12
+#: forms/dialog-data.php:155
+#: forms/dialog-data.php:103
+msgid "Unknown"
+msgstr ""
+
+#: core/basic/Wizard.php:184
+msgid "Intro"
+msgstr ""
+
+#: core/basic/Wizard.php:188
+msgid "Finish"
+msgstr ""
+
+#: core/components/Attachment.php:32
+msgid "Attachments"
+msgstr ""
+
+#: core/components/Attachment.php:38
+msgid "Attachment Uploaded"
+msgstr ""
+
+#: core/components/Attachment.php:41
+msgid "Attachment Edited"
+msgstr ""
+
+#: core/components/Attachment.php:44
+msgid "Attachment Deleted"
+msgstr ""
+
+#: core/components/Comment.php:61
+msgid "Comments"
+msgstr ""
+
+#: core/components/Comment.php:67
+msgid "Comment Status Change"
+msgstr ""
+
+#: core/components/Comment.php:70
+msgid "Comment Deleted"
+msgstr ""
+
+#: core/components/Comment.php:73
+msgid "Comment Meta Added"
+msgstr ""
+
+#: core/components/Comment.php:78
+msgid "Comment Meta Updated"
+msgstr ""
+
+#: core/components/Comment.php:83
+msgid "Comment Meta Deleted"
+msgstr ""
+
+#: core/components/Error.php:28
+msgid "Errors"
+msgstr ""
+
+#: core/components/Error.php:34
+msgid "404 Not Found"
+msgstr ""
+
+#: core/components/Error.php:37
+msgid "404 Not Found PHP"
+msgstr ""
+
+#: core/components/Error.php:40
+msgid "404 Not Found File"
+msgstr ""
+
+#: core/components/Error.php:43
+msgid "404 Not Found Media"
+msgstr ""
+
+#: core/components/Error.php:46
+msgid "404 Not Found Script"
+msgstr ""
+
+#: core/components/Error.php:49
+msgid "404 Not Found Style"
+msgstr ""
+
+#: core/components/Internal.php:36
+#: core/log/Activity.php:81
+#: core/log/Activity.php:338
+msgid "Internal"
+msgstr ""
+
+#: core/components/Internal.php:42
+msgid "Log Cleanup"
+msgstr ""
+
+#: core/components/Internal.php:45
+msgid "Auto Log Cleanup"
+msgstr ""
+
+#: core/components/Internal.php:48
+#: forms/content-tools-notifications.php:35
+msgid "Daily Digest"
+msgstr ""
+
+#: core/components/Internal.php:52
+#: forms/content-tools-notifications.php:50
+msgid "Weekly Digest"
+msgstr ""
+
+#: core/components/Network.php:21
+#: core/table/Logs.php:185
+#: core/table/Logs.php:732
+msgid "Blog"
+msgstr ""
+
+#: core/components/Network.php:85
+msgid "Multisite Network"
+msgstr ""
+
+#: core/components/Network.php:97
+msgid "Blog Created"
+msgstr ""
+
+#: core/components/Network.php:100
+msgid "Blog Removed"
+msgstr ""
+
+#: core/components/Network.php:103
+msgid "Blog Updated"
+msgstr ""
+
+#: core/components/Network.php:106
+msgid "Blog Signup"
+msgstr ""
+
+#: core/components/Network.php:109
+msgid "Failed Blog Signup"
+msgstr ""
+
+#: core/components/Network.php:112
+msgid "Blog Status Deleted"
+msgstr ""
+
+#: core/components/Network.php:115
+msgid "Blog Status Not Deleted"
+msgstr ""
+
+#: core/components/Network.php:118
+msgid "Blog Status Archive"
+msgstr ""
+
+#: core/components/Network.php:121
+msgid "Blog Status Not Archive"
+msgstr ""
+
+#: core/components/Network.php:124
+msgid "Blog Status Public"
+msgstr ""
+
+#: core/components/Network.php:127
+msgid "Blog Status Private"
+msgstr ""
+
+#: core/components/Network.php:130
+msgid "Blog Status Spam"
+msgstr ""
+
+#: core/components/Network.php:133
+msgid "Blog Status Not Spam"
+msgstr ""
+
+#: core/components/Network.php:136
+msgid "Blog Status Mature"
+msgstr ""
+
+#: core/components/Network.php:139
+msgid "Blog Status Not Mature"
+msgstr ""
+
+#: core/components/Notification.php:81
+msgid "Email Sent"
+msgstr ""
+
+#: core/components/Notification.php:84
+msgid "Email Failed"
+msgstr ""
+
+#: core/components/Notification.php:87
+msgid "Unknown Email Sent"
+msgstr ""
+
+#: core/components/Notification.php:90
+msgid "Unknown Email Failed"
+msgstr ""
+
+#: core/components/Option.php:199
+msgid "Options"
+msgstr ""
+
+#: core/components/Option.php:205
+msgid "Core Option Changed"
+msgstr ""
+
+#: core/components/Option.php:208
+msgid "Core Option Deleted"
+msgstr ""
+
+#: core/components/Option.php:211
+msgid "Option Added"
+msgstr ""
+
+#: core/components/Option.php:214
+msgid "Option Changed"
+msgstr ""
+
+#: core/components/Option.php:217
+msgid "Option Deleted"
+msgstr ""
+
+#: core/components/Option.php:220
+msgid "Transient Set"
+msgstr ""
+
+#: core/components/Option.php:224
+msgid "Transient Deleted"
+msgstr ""
+
+#: core/components/Plugin.php:57
+#: core/log/Activity.php:342
+msgid "Plugins"
+msgstr ""
+
+#: core/components/Plugin.php:63
+msgid "Plugin Installed"
+msgstr ""
+
+#: core/components/Plugin.php:67
+msgid "Plugin Updated"
+msgstr ""
+
+#: core/components/Plugin.php:71
+msgid "Plugin Install Error"
+msgstr ""
+
+#: core/components/Plugin.php:75
+msgid "Plugin Updated Error"
+msgstr ""
+
+#: core/components/Plugin.php:79
+msgid "Plugin Deleted"
+msgstr ""
+
+#: core/components/Plugin.php:82
+msgid "Plugin Activated"
+msgstr ""
+
+#: core/components/Plugin.php:86
+msgid "Plugin Network Activated"
+msgstr ""
+
+#: core/components/Plugin.php:90
+msgid "Plugin Deactivated"
+msgstr ""
+
+#: core/components/Plugin.php:94
+msgid "Plugin Network Deactivated"
+msgstr ""
+
+#: core/components/Post.php:33
+msgid "Posts"
+msgstr ""
+
+#: core/components/Privacy.php:37
+msgid "Privacy"
+msgstr ""
+
+#: core/components/Privacy.php:43
+msgid "Requested Export of Personal Data"
+msgstr ""
+
+#: core/components/Privacy.php:46
+msgid "Completed Export of Personal Data"
+msgstr ""
+
+#: core/components/Privacy.php:49
+msgid "Confirmed Export of Personal Data"
+msgstr ""
+
+#: core/components/Privacy.php:52
+msgid "Deleted Request for Export of Personal Data"
+msgstr ""
+
+#: core/components/Privacy.php:55
+msgid "Requested Removal of Personal Data"
+msgstr ""
+
+#: core/components/Privacy.php:58
+msgid "Confirmed Removal of Personal Data"
+msgstr ""
+
+#: core/components/Privacy.php:61
+msgid "Completed Removal of Personal Data"
+msgstr ""
+
+#: core/components/Privacy.php:64
+msgid "Deleted Request for Removal of Personal Data"
+msgstr ""
+
+#: core/components/Privacy.php:67
+msgid "Personal Data Erased"
+msgstr ""
+
+#: core/components/Privacy.php:70
+msgid "Created Personal Data File"
+msgstr ""
+
+#: core/components/RESTAPI.php:38
+msgid "REST API"
+msgstr ""
+
+#: core/components/RESTAPI.php:44
+msgid "Unknown REST Route"
+msgstr ""
+
+#: core/components/RESTAPI.php:47
+msgid "Unauthorized REST Request"
+msgstr ""
+
+#: core/components/RESTAPI.php:50
+msgid "Invalid REST Request"
+msgstr ""
+
+#: core/components/RESTAPI.php:53
+msgid "REST Server Error"
+msgstr ""
+
+#: core/components/RESTAPI.php:56
+msgid "REST Item Delete"
+msgstr ""
+
+#: core/components/RESTAPI.php:59
+msgid "REST Item Edited"
+msgstr ""
+
+#: core/components/RESTAPI.php:62
+msgid "REST Item Created"
+msgstr ""
+
+#: core/components/RESTAPI.php:65
+msgid "REST Item Read"
+msgstr ""
+
+#: core/components/Sitemeta.php:100
+msgid "Sitemeta"
+msgstr ""
+
+#: core/components/Sitemeta.php:112
+msgid "Core Sitemeta Changed"
+msgstr ""
+
+#: core/components/Sitemeta.php:115
+msgid "Core Sitemeta Deleted"
+msgstr ""
+
+#: core/components/Sitemeta.php:118
+msgid "Sitemeta Added"
+msgstr ""
+
+#: core/components/Sitemeta.php:121
+msgid "Sitemeta Changed"
+msgstr ""
+
+#: core/components/Sitemeta.php:124
+msgid "Sitemeta Deleted"
+msgstr ""
+
+#: core/components/Sitemeta.php:127
+msgid "Site Transient Set"
+msgstr ""
+
+#: core/components/Sitemeta.php:131
+msgid "Site Transient Deleted"
+msgstr ""
+
+#: core/components/Term.php:66
+msgid "Terms"
+msgstr ""
+
+#: core/components/Term.php:72
+msgid "Term Created"
+msgstr ""
+
+#: core/components/Term.php:75
+msgid "Term Deleted"
+msgstr ""
+
+#: core/components/Term.php:78
+msgid "Term Edited"
+msgstr ""
+
+#: core/components/Term.php:81
+msgid "Term Meta Added"
+msgstr ""
+
+#: core/components/Term.php:86
+msgid "Term Meta Updated"
+msgstr ""
+
+#: core/components/Term.php:91
+msgid "Term Meta Deleted"
+msgstr ""
+
+#: core/components/Theme.php:53
+msgid "Themes"
+msgstr ""
+
+#: core/components/Theme.php:59
+msgid "Theme Installed"
+msgstr ""
+
+#: core/components/Theme.php:63
+msgid "Theme Updated"
+msgstr ""
+
+#: core/components/Theme.php:67
+msgid "Theme Install Error"
+msgstr ""
+
+#: core/components/Theme.php:71
+msgid "Theme Updated Error"
+msgstr ""
+
+#: core/components/Theme.php:75
+msgid "Theme Deleted"
+msgstr ""
+
+#: core/components/Theme.php:78
+msgid "Theme Switched"
+msgstr ""
+
+#: core/components/User.php:126
+msgid "Users"
+msgstr ""
+
+#: core/components/User.php:132
+msgid "Login"
+msgstr ""
+
+#: core/components/User.php:135
+msgid "Logout"
+msgstr ""
+
+#: core/components/User.php:138
+msgid "Failed Login"
+msgstr ""
+
+#: core/components/User.php:142
+msgid "Failed Login Cookie"
+msgstr ""
+
+#: core/components/User.php:146
+msgid "Password Reset"
+msgstr ""
+
+#: core/components/User.php:150
+msgid "Request Password Reset Invalid"
+msgstr ""
+
+#: core/components/User.php:154
+msgid "Request Password Reset"
+msgstr ""
+
+#: core/components/User.php:157
+msgid "Registered"
+msgstr ""
+
+#: core/components/User.php:160
+msgid "User Deleted"
+msgstr ""
+
+#: core/components/User.php:163
+msgid "User Role Changed"
+msgstr ""
+
+#: core/components/User.php:166
+msgid "Edited Password"
+msgstr ""
+
+#: core/components/User.php:169
+msgid "Edited Email"
+msgstr ""
+
+#: core/components/User.php:172
+msgid "Edited URL"
+msgstr ""
+
+#: core/components/User.php:175
+msgid "Edited Display Name"
+msgstr ""
+
+#: core/components/User.php:178
+msgid "Edited Meta"
+msgstr ""
+
+#: core/components/User.php:181
+msgid "User Signup"
+msgstr ""
+
+#: core/components/User.php:185
+msgid "Failed User Signup"
+msgstr ""
+
+#: core/components/User.php:189
+msgid "Activate User"
+msgstr ""
+
+#: core/components/User.php:193
+msgid "User Meta Added"
+msgstr ""
+
+#: core/components/User.php:198
+msgid "User Meta Updated"
+msgstr ""
+
+#: core/components/User.php:203
+msgid "User Meta Deleted"
+msgstr ""
+
+#: core/components/User.php:340
+msgid "There is no account with that username or email address."
+msgstr ""
+
+#: core/components/WordPress.php:61
+#: core/log/Activity.php:82
+#: core/log/Activity.php:334
+msgid "WordPress"
+msgstr ""
+
+#: core/components/WordPress.php:67
+msgid "WordPress Core Update"
+msgstr ""
+
+#: core/components/WordPress.php:71
+msgid "WordPress Core Auto Update"
+msgstr ""
+
+#: core/components/WordPress.php:75
+msgid "Available WordPress Update"
+msgstr ""
+
+#: core/components/WordPress.php:82
+msgid "Available Plugin Updates"
+msgstr ""
+
+#: core/components/WordPress.php:89
+msgid "Available Theme Updates"
+msgstr ""
+
+#: core/components/WordPress.php:96
+msgid "CRON Event Scheduled"
+msgstr ""
+
+#: core/components/WordPress.php:100
+msgid "Content Export"
+msgstr ""
+
+#: core/components/WordPress.php:104
+msgid "Database Delta Queries"
+msgstr ""
+
+#: core/log/Activity.php:83
+#: core/log/Activity.php:109
+#: core/log/Display.php:226
+#: core/log/Display.php:494
+msgid "Plugin"
+msgstr ""
+
+#: core/log/Activity.php:100
+msgid "Post"
+msgstr ""
+
+#: core/log/Activity.php:102
+msgid "Attachment"
+msgstr ""
+
+#: core/log/Activity.php:103
+msgid "Term"
+msgstr ""
+
+#: core/log/Activity.php:105
+msgid "Comment"
+msgstr ""
+
+#: core/log/Activity.php:107
+#: core/table/Logs.php:186
+#: core/table/Logs.php:767
+msgid "User"
+msgstr ""
+
+#: core/log/Activity.php:110
+#: core/log/Display.php:203
+#: core/log/Display.php:481
+msgid "Theme"
+msgstr ""
+
+#: core/log/Activity.php:111
+msgid "Cron"
+msgstr ""
+
+#: core/log/Activity.php:112
+msgid "Option"
+msgstr ""
+
+#: core/log/Activity.php:113
+msgid "Site Meta"
+msgstr ""
+
+#: core/log/Activity.php:114
+msgid "Transient"
+msgstr ""
+
+#: core/log/Activity.php:115
+msgid "Notification"
+msgstr ""
+
+#: core/log/Activity.php:116
+msgid "REST Route"
+msgstr ""
+
+#: core/log/Display.php:200
+#: core/log/Display.php:478
+msgid "Unknown Theme"
+msgstr ""
+
+#: core/log/Display.php:223
+#: core/log/Display.php:492
+msgid "Unknown Plugin"
+msgstr ""
+
+#: core/log/Display.php:245
+#: core/log/Display.php:504
+msgid "Unknown Notification Type"
+msgstr ""
+
+#: core/log/Display.php:296
+#: core/log/Display.php:558
+msgid "KEY"
+msgstr ""
+
+#: core/log/Display.php:299
+msgid "Post: %1$s &middot; %2$s<br/>Post Type: %3$s"
+msgstr ""
+
+#: core/log/Display.php:316
+msgid "ID: %1$s &middot; Post: %2$s<br/>Post Type: %3$s"
+msgstr ""
+
+#: core/log/Display.php:318
+#: core/log/Display.php:344
+#: core/log/Display.php:363
+#: core/log/Display.php:381
+#: core/log/Display.php:401
+#: core/log/Display.php:434
+#: core/log/Display.php:449
+#: core/log/Display.php:466
+#: core/log/Display.php:545
+#: core/log/Display.php:587
+#: core/log/Display.php:606
+#: core/log/Display.php:624
+#: core/log/Display.php:643
+#: core/log/Display.php:665
+#: core/log/Display.php:680
+#: core/log/Display.php:697
+msgid "MISSING"
+msgstr ""
+
+#: core/log/Display.php:338
+msgid "ID: %1$s &middot; Author: %2$s<br/>Post: %3$s"
+msgstr ""
+
+#: core/log/Display.php:341
+msgid "ID: %1$s &middot; Author: %2$s<br/>Post: MISSING"
+msgstr ""
+
+#: core/log/Display.php:361
+msgid "ID: %1$s &middot; MIME/Type: %2$s<br/>Name: %3$s"
+msgstr ""
+
+#: core/log/Display.php:379
+#: core/log/Display.php:399
+msgid "ID: %1$s &middot; Slug: %2$s<br/>Name: %3$s"
+msgstr ""
+
+#: core/log/Display.php:384
+#: core/log/Display.php:404
+#: core/log/Display.php:418
+#: core/log/Display.php:422
+#: core/log/Display.php:627
+#: core/log/Display.php:646
+#: core/log/Display.php:653
+#: core/table/Events.php:96
+#: core/table/Logs.php:184
+msgid "ID"
+msgstr ""
+
+#: core/log/Display.php:432
+#: core/log/Display.php:447
+msgid "ID: %1$s<br/>Post: %2$s"
+msgstr ""
+
+#: core/log/Display.php:464
+msgid "ID: %1$s &middot; Term: %2$s<br/>Taxonomy: %3$s"
+msgstr ""
+
+#: core/log/Display.php:543
+msgid "ID: %1$s &middot; Post: %2$s%3$sPost Type: %4$s"
+msgstr ""
+
+#: core/log/Display.php:561
+msgid " &middot; Post: %1$s &middot; %2$s%3$sPost Type: %4$s"
+msgstr ""
+
+#: core/log/Display.php:581
+msgid "ID: %1$s &middot; Author: %2$s%3$sPost: %4$s"
+msgstr ""
+
+#: core/log/Display.php:584
+msgid "ID: %1$s &middot; Author: %2$s%3$sPost: MISSING"
+msgstr ""
+
+#: core/log/Display.php:604
+msgid "ID: %1$s &middot; MIME/Type: %2$s%3$sName: %4$s"
+msgstr ""
+
+#: core/log/Display.php:622
+msgid "ID: %1$s &middot; Slug: %2$s%3$sName: %4$s"
+msgstr ""
+
+#: core/log/Display.php:641
+msgid "ID: %1$s · Slug: %2$s%3$sName: %4$s"
+msgstr ""
+
+#: core/log/Display.php:663
+#: core/log/Display.php:678
+msgid "ID: %1$s%2$sPost: %3$s"
+msgstr ""
+
+#: core/log/Display.php:695
+msgid "ID: %1$s &middot; Term: %2$s%3$sTaxonomy: %4$s"
+msgstr ""
+
+#: core/log/Display.php:205
+msgid "Directory"
+msgstr ""
+
+#: core/log/Display.php:208
+#: core/log/Display.php:230
+#: forms/content-about-minor.php:14
+#: forms/content-about-minor.php:18
+#: forms/content-about-minor.php:22
+#: forms/content-about-minor.php:26
+#: forms/content-about-minor.php:30
+msgid "Version"
+msgstr ""
+
+#: core/log/Display.php:212
+#: core/log/Display.php:234
+msgid "New Version"
+msgstr ""
+
+#: core/log/Display.php:227
+msgid "File"
+msgstr ""
+
+#: core/log/Display.php:252
+#: core/table/Events.php:99
+msgid "Source"
+msgstr ""
+
+#: core/log/Display.php:253
+#: forms/dialog-data.php:141
+msgid "Name"
+msgstr ""
+
+#: core/log/Display.php:265
+#: core/log/Display.php:516
+msgid "Invalid"
+msgstr ""
+
+#: core/log/Display.php:272
+#: core/log/Display.php:523
+#: core/table/Logs.php:765
+#: core/table/Logs.php:995
+msgid "Not Found"
+msgstr ""
+
+#: core/log/GEO.php:1154
+msgid "File is Missing"
+msgstr ""
+
+#: core/log/GEO.php:1163
+#: core/log/GEO.php:1232
+msgid "Token Missing"
+msgstr ""
+
+#: core/plugins/bbPress.php:31
+msgid "bbPress"
+msgstr ""
+
+#: core/plugins/BuddyPress.php:32
+msgid "BuddyPress Component"
+msgstr ""
+
+#: core/plugins/BuddyPress.php:33
+msgid "BuddyPress Group"
+msgstr ""
+
+#: core/plugins/BuddyPress.php:60
+msgid "BuddyPress"
+msgstr ""
+
+#: core/plugins/BuddyPress.php:66
+msgid "Group Created"
+msgstr ""
+
+#: core/plugins/BuddyPress.php:69
+msgid "Group Updated"
+msgstr ""
+
+#: core/plugins/BuddyPress.php:72
+msgid "Component Activated"
+msgstr ""
+
+#: core/plugins/BuddyPress.php:75
+msgid "Component Deactivated"
+msgstr ""
+
+#: core/plugins/ContactForm7.php:34
+#: core/plugins/ContactForm7.php:56
+msgid "Contact Form 7"
+msgstr ""
+
+#: core/plugins/ContactForm7.php:62
+#: core/plugins/Forminator.php:52
+#: core/plugins/GravityForms.php:62
+msgid "Form Deleted"
+msgstr ""
+
+#: core/plugins/ContactForm7.php:65
+msgid "Submission Sent"
+msgstr ""
+
+#: core/plugins/ContactForm7.php:68
+msgid "Submission Failed"
+msgstr ""
+
+#: core/plugins/DebugPress.php:25
+#: core/plugins/DebugPress.php:75
+msgid "PHP Error"
+msgstr ""
+
+#: core/plugins/DebugPress.php:69
+msgid "DebugPress"
+msgstr ""
+
+#: core/plugins/DebugPress.php:79
+msgid "Doing It Wrong"
+msgstr ""
+
+#: core/plugins/DebugPress.php:82
+msgid "Deprecated Function"
+msgstr ""
+
+#: core/plugins/DebugPress.php:85
+msgid "Deprecated File"
+msgstr ""
+
+#: core/plugins/DebugPress.php:88
+msgid "Deprecated Argument"
+msgstr ""
+
+#: core/plugins/DebugPress.php:91
+msgid "Deprecated Constructor"
+msgstr ""
+
+#: core/plugins/DebugPress.php:94
+msgid "Deprecated Hook Run"
+msgstr ""
+
+#: core/plugins/DebugPress.php:97
+msgid "Admin AJAX Call"
+msgstr ""
+
+#: core/plugins/DebugPress.php:102
+msgid "HTTP API Call"
+msgstr ""
+
+#: core/plugins/DuplicatePost.php:43
+msgid "Duplicate Post"
+msgstr ""
+
+#: core/plugins/DuplicatePost.php:49
+msgid "Post Duplicated"
+msgstr ""
+
+#: core/plugins/Forminator.php:34
+#: core/plugins/Forminator.php:46
+msgid "Forminator"
+msgstr ""
+
+#: core/plugins/GDForumManager.php:38
+msgid "GD Forum Manager"
+msgstr ""
+
+#: core/plugins/GDForumManager.php:44
+msgid "Forum Edit"
+msgstr ""
+
+#: core/plugins/GDForumManager.php:47
+msgid "Forum Bulk Edit"
+msgstr ""
+
+#: core/plugins/GDForumManager.php:50
+msgid "Topic Edit"
+msgstr ""
+
+#: core/plugins/GDForumManager.php:53
+msgid "Topic Bulk Edit"
+msgstr ""
+
+#: core/plugins/GravityForms.php:20
+msgid "Gravity Form"
+msgstr ""
+
+#: core/plugins/GravityForms.php:21
+msgid "Gravity Entry"
+msgstr ""
+
+#: core/plugins/GravityForms.php:53
+msgid "Gravity Forms"
+msgstr ""
+
+#: core/plugins/GravityForms.php:59
+msgid "Form Created"
+msgstr ""
+
+#: core/plugins/GravityForms.php:65
+msgid "Form Trashed"
+msgstr ""
+
+#: core/plugins/GravityForms.php:68
+msgid "Form Restored"
+msgstr ""
+
+#: core/plugins/GravityForms.php:71
+msgid "Form Activated"
+msgstr ""
+
+#: core/plugins/GravityForms.php:74
+msgid "Form Deactivated"
+msgstr ""
+
+#: core/plugins/Jetpack.php:21
+msgid "Jetpack Module"
+msgstr ""
+
+#: core/plugins/Jetpack.php:37
+msgid "Jetpack"
+msgstr ""
+
+#: core/plugins/Jetpack.php:43
+msgid "Activated Module"
+msgstr ""
+
+#: core/plugins/Jetpack.php:46
+msgid "Deactivated Module"
+msgstr ""
+
+#: core/plugins/SweepPress.php:32
+msgid "SweepPress"
+msgstr ""
+
+#: core/plugins/SweepPress.php:38
+msgid "Sweeping Completed"
+msgstr ""
+
+#: core/plugins/SweepPress.php:41
+msgid "Run CRON job"
+msgstr ""
+
+#: core/plugins/SweepPress.php:44
+msgid "Deleted CRON job"
+msgstr ""
+
+#: core/plugins/UserSwitching.php:32
+msgid "User Switching"
+msgstr ""
+
+#: core/plugins/UserSwitching.php:38
+msgid "Switched to User"
+msgstr ""
+
+#: core/plugins/UserSwitching.php:41
+msgid "Switched Off"
+msgstr ""
+
+#: core/plugins/UserSwitching.php:44
+msgid "Switched Back from User"
+msgstr ""
+
+#: core/plugins/UserSwitching.php:47
+msgid "Switched Back"
+msgstr ""
+
+#: core/plugins/WooCommerce.php:32
+msgid "WooCommerce"
+msgstr ""
+
+#: core/table/Events.php:98
+#: forms/dialog-data.php:138
+msgid "Category"
+msgstr ""
+
+#: core/table/Events.php:100
+#: core/table/Logs.php:187
+#: core/table/Logs.php:711
+#: forms/dialog-data.php:17
+msgid "Component"
+msgstr ""
+
+#: core/table/Events.php:101
+#: core/table/Logs.php:188
+#: core/table/Logs.php:722
+#: forms/dialog-data.php:18
+msgid "Event"
+msgstr ""
+
+#: core/table/Events.php:103
+msgid "Description"
+msgstr ""
+
+#: core/table/Events.php:104
+#: forms/content-dashboard-overall.php:24
+#: forms/content-dashboard-overall.php:36
+msgid "Available"
+msgstr ""
+
+#: core/table/Events.php:133
+msgid "All Sources"
+msgstr ""
+
+#: core/table/Events.php:138
+msgid "All Categories"
+msgstr ""
+
+#: core/table/Events.php:144
+#: core/table/Logs.php:536
+msgid "All Components"
+msgstr ""
+
+#: core/table/Events.php:148
+#: core/table/Events.php:204
+#: core/table/Events.php:219
+#: core/table/Logs.php:604
+msgid "Filter"
+msgstr ""
+
+#: core/table/Events.php:175
+msgid "Enable Events"
+msgstr ""
+
+#: core/table/Events.php:176
+msgid "Disable Events"
+msgstr ""
+
+#: core/table/Events.php:177
+#: core/table/Events.php:242
+msgid "Enable Instant Notifications"
+msgstr ""
+
+#: core/table/Events.php:178
+#: core/table/Events.php:242
+msgid "Disable Instant Notifications"
+msgstr ""
+
+#: core/table/Events.php:179
+#: core/table/Events.php:246
+msgid "Enable Daily Notifications"
+msgstr ""
+
+#: core/table/Events.php:180
+#: core/table/Events.php:246
+msgid "Disable Daily Notifications"
+msgstr ""
+
+#: core/table/Events.php:181
+#: core/table/Events.php:250
+msgid "Enable Weekly Notifications"
+msgstr ""
+
+#: core/table/Events.php:182
+#: core/table/Events.php:250
+msgid "Disable Weekly Notifications"
+msgstr ""
+
+#: core/table/Events.php:234
+#: forms/dialog-data.php:134
+msgid "Yes"
+msgstr ""
+
+#: core/table/Events.php:234
+#: forms/dialog-data.php:134
+msgid "No"
+msgstr ""
+
+#: core/table/Events.php:243
+msgid "Instant"
+msgstr ""
+
+#: core/table/Events.php:247
+msgid "Daily"
+msgstr ""
+
+#: core/table/Events.php:251
+msgid "Weekly"
+msgstr ""
+
+#: core/table/Events.php:259
+msgid "Disable Event"
+msgstr ""
+
+#: core/table/Events.php:259
+msgid "Enable Event"
+msgstr ""
+
+#: core/table/Events.php:205
+#: core/table/Events.php:220
+#: core/table/Logs.php:886
+msgid "View"
+msgstr ""
+
+#: core/table/Events.php:206
+#: core/table/Events.php:221
+msgid "Clean Up"
+msgstr ""
+
+#: core/table/Logs.php:189
+#: core/table/Logs.php:694
+#: forms/dialog-data.php:19
+msgid "Context"
+msgstr ""
+
+#: core/table/Logs.php:191
+#: forms/dialog-data.php:21
+msgid "Protocol"
+msgstr ""
+
+#: core/table/Logs.php:192
+#: forms/dialog-data.php:26
+msgid "Request"
+msgstr ""
+
+#: core/table/Logs.php:193
+#: core/table/Logs.php:683
+msgid "Object Type"
+msgstr ""
+
+#: core/table/Logs.php:194
+#: forms/dialog-data.php:23
+msgid "Object"
+msgstr ""
+
+#: core/table/Logs.php:195
+#: core/functions.php:63
+msgid "Meta"
+msgstr ""
+
+#: core/table/Logs.php:197
+msgid "Detection"
+msgstr ""
+
+#: core/table/Logs.php:198
+msgid "Logged"
+msgstr ""
+
+#: core/table/Logs.php:544
+msgid "All Events"
+msgstr ""
+
+#: core/table/Logs.php:552
+msgid "All Contexts"
+msgstr ""
+
+#: core/table/Logs.php:553
+#: core/table/Logs.php:691
+msgid "Normal"
+msgstr ""
+
+#: core/table/Logs.php:567
+msgid "All Countries"
+msgstr ""
+
+#: core/table/Logs.php:574
+msgid "All Methods"
+msgstr ""
+
+#: core/table/Logs.php:590
+msgid "All Object Types"
+msgstr ""
+
+#: core/table/Logs.php:613
+msgid "Localhost or Private"
+msgstr ""
+
+#: core/table/Logs.php:664
+msgid "All Logs"
+msgstr ""
+
+#: core/table/Logs.php:800
+msgid "Delete"
+msgstr ""
+
+#: core/table/Logs.php:901
+msgid "Go"
+msgstr ""
+
+#: core/table/Logs.php:932
+msgid "IP Logs"
+msgstr ""
+
+#: core/table/Logs.php:936
+msgid "Who Is"
+msgstr ""
+
+#: core/table/Logs.php:940
+msgid "Country Logs"
+msgstr ""
+
+#: core/table/Logs.php:1050
+msgid "Type Logs"
+msgstr ""
+
+#: core/table/Logs.php:1062
+msgid "Object Logs"
+msgstr ""
+
+#: core/table/Logs.php:1067
+msgid "Do Not Log"
+msgstr ""
+
+#: core/table/Logs.php:1077
+msgid "on exception list"
+msgstr ""
+
+#: core/table/Logs.php:1145
+#: core/table/Logs.php:956
+#: forms/dialog-data.php:133
+msgid "Bot"
+msgstr ""
+
+#: core/table/Logs.php:199
+#: core/table/Logs.php:199
+msgid "Toggle Meta"
+msgstr ""
+
+#: core/table/Logs.php:1172
+msgid "Show Log Meta Data"
+msgstr ""
+
+#: core/table/Logs.php:702
+msgid "Request Method"
+msgstr ""
+
+#: core/table/Logs.php:758
+#: forms/dialog-data.php:98
+msgid "Country"
+msgstr ""
+
+#: core/table/Logs.php:783
+msgid "Live Refresh"
+msgstr ""
+
+#: core/table/Logs.php:820
+msgid "protocol"
+msgstr ""
+
+#: core/table/Logs.php:824
+msgid "request"
+msgstr ""
+
+#: core/table/Logs.php:984
+msgid "Not a User"
+msgstr ""
+
+#: core/table/Logs.php:999
+msgid "Edit"
+msgstr ""
+
+#: core/functions.php:59
+msgid "Data"
+msgstr ""
+
+#: core/functions.php:67
+msgid "Location"
+msgstr ""
+
+#: core/functions.php:71
+#: forms/dialog-data.php:154
+msgid "Device"
+msgstr ""
+
+#: forms/content-about-minor.php:12
+msgid "Maintenance and Security Releases"
+msgstr ""
+
+#: forms/content-about-minor.php:37
+msgid "For more information, see <a href='%s'>the changelog</a>."
+msgstr ""
+
+#: forms/content-about-whatsnew.php:26
+msgid "Run Setup Wizard"
+msgstr ""
+
+#: forms/content-dashboard-blog.php:12
+msgid "Blog Activity Logs"
+msgstr ""
+
+#: forms/content-dashboard-blog.php:15
+msgid "This is a limited use dashboard for the individual blog on your multisite network. You can see only log entries logged for this individual blog only. To access plugin settings, events, and logs for the whole network, you need to go to the Network Admin."
+msgstr ""
+
+#: forms/content-dashboard-blog.php:20
+msgid "Full Activity Logs"
+msgstr ""
+
+#: forms/content-dashboard-blog.php:21
+msgid "Events Management"
+msgstr ""
+
+#: forms/content-dashboard-blog.php:22
+msgid "Plugin Settings"
+msgstr ""
+
+#: forms/content-dashboard-database.php:21
+msgid "Database Tables"
+msgstr ""
+
+#: forms/content-dashboard-database.php:24
+msgid "Oldest Entry Day"
+msgstr ""
+
+#: forms/content-dashboard-database.php:27
+msgid "Log Range"
+msgstr ""
+
+#: forms/content-dashboard-database.php:30
+msgid "Total Tables Size"
+msgstr ""
+
+#: forms/content-dashboard-database.php:33
+msgid "Total Overhead"
+msgstr ""
+
+#: forms/content-dashboard-database.php:36
+msgid "Log Entries"
+msgstr ""
+
+#: forms/content-dashboard-database.php:39
+msgid "Log Size"
+msgstr ""
+
+#: forms/content-dashboard-database.php:42
+msgid "Metadata Rows"
+msgstr ""
+
+#: forms/content-dashboard-database.php:45
+msgid "Metadata Size"
+msgstr ""
+
+#: forms/content-dashboard-database.php:48
+msgid "Events Records"
+msgstr ""
+
+#: forms/content-dashboard-database.php:51
+msgid "Events Size"
+msgstr ""
+
+#: forms/content-dashboard-database.php:54
+msgid "History Statistics"
+msgstr ""
+
+#: forms/content-dashboard-database.php:27
+msgid "days"
+msgstr ""
+
+#: forms/content-dashboard-location.php:20
+msgid "GEO Location Method"
+msgstr ""
+
+#: forms/content-dashboard-location.php:26
+#: forms/content-dashboard-location.php:54
+msgid "Database Path"
+msgstr ""
+
+#: forms/content-dashboard-location.php:29
+#: forms/content-dashboard-location.php:57
+msgid "Database Downloaded"
+msgstr ""
+
+#: forms/content-dashboard-location.php:39
+#: forms/content-dashboard-location.php:67
+msgid "Download Error"
+msgstr ""
+
+#: forms/content-dashboard-location.php:47
+#: forms/content-dashboard-location.php:75
+msgid "About the Database"
+msgstr ""
+
+#: forms/content-dashboard-location.php:82
+msgid "IP Location Data Logging"
+msgstr ""
+
+#: forms/content-dashboard-overall.php:27
+#: forms/content-dashboard-overall.php:42
+msgid "Total Registered"
+msgstr ""
+
+#: forms/content-dashboard-overall.php:39
+msgid "Enabled Events"
+msgstr ""
+
+#: forms/content-dashboard-overall.php:55
+#: forms/content-dashboard-overall.php:58
+msgid "Events Logging"
+msgstr ""
+
+#: forms/content-dashboard-overall.php:56
+msgid "Active"
+msgstr ""
+
+#: forms/content-dashboard-overall.php:59
+msgid "Disabled"
+msgstr ""
+
+#: forms/content-dashboard-overall.php:72
+msgid "Disable all Events Logging"
+msgstr ""
+
+#: forms/content-dashboard-overall.php:75
+msgid "Enable Events Logging"
+msgstr ""
+
+#: forms/content-dashboard-statistics.php:16
+msgid "Last 30 days statistics"
+msgstr ""
+
+#: forms/content-dashboard-statistics.php:24
+msgid "There are no events logged in the past 30 days."
+msgstr ""
+
+#: forms/content-events.php:20
+#: forms/content-logs.php:31
+msgid "Search"
+msgstr ""
+
+#: forms/content-install.php:24
+#: forms/content-update.php:29
+msgid "All Done"
+msgstr ""
+
+#: forms/content-install.php:27
+msgid "Installation completed."
+msgstr ""
+
+#: forms/content-install.php:32
+#: forms/content-update.php:37
+msgid "Click here to continue"
+msgstr ""
+
+#: forms/content-tools-cleanup.php:15
+msgid "Important"
+msgstr ""
+
+#: forms/content-tools-cleanup.php:17
+msgid "These tools will remove logged data from the database. Create database backup before using these tools to avoid data loss in case you change your mind."
+msgstr ""
+
+#: forms/content-tools-export.php:13
+#: forms/content-tools-notifications.php:13
+#: forms/content-tools-remove.php:13
+msgid "Important Information"
+msgstr ""
+
+#: forms/content-tools-export.php:15
+msgid "With this tool you export plugin settings into plain text file (JSON serialized content). Do not modify export file! Making changes to export file will make it unusable."
+msgstr ""
+
+#: forms/content-tools-export.php:16
+msgid "This tool doesn't export the data from the dedicated database tables."
+msgstr ""
+
+#: forms/content-tools-notifications.php:15
+msgid "With this tool, you can easily enable or disable all events notifications status. If you want to enable all events for daily or weekly digest, or for instant notification, you can do it easily from here."
+msgstr ""
+
+#: forms/content-tools-notifications.php:23
+#: forms/content-tools-notifications.php:38
+#: forms/content-tools-notifications.php:53
+msgid "Do Not Change"
+msgstr ""
+
+#: forms/content-tools-notifications.php:26
+msgid "Enable Instant Notifications for all Events"
+msgstr ""
+
+#: forms/content-tools-notifications.php:29
+msgid "Disable Instant Notifications for all Events"
+msgstr ""
+
+#: forms/content-tools-notifications.php:41
+msgid "Enable Daily Digest for all Events"
+msgstr ""
+
+#: forms/content-tools-notifications.php:44
+msgid "Disable Daily Digest for all Events"
+msgstr ""
+
+#: forms/content-tools-notifications.php:56
+msgid "Enable Weekly Digest for all Events"
+msgstr ""
+
+#: forms/content-tools-notifications.php:59
+msgid "Disable Weekly Digest for all Events"
+msgstr ""
+
+#: forms/content-tools-remove.php:15
+msgid "This tool can remove plugin settings saved in the WordPress options table added by the plugin and you can remove share and likes data gathered by the plugin share blocks."
+msgstr ""
+
+#: forms/content-tools-remove.php:17
+msgid "Deletion operations are not reversible, and it is highly recommended to create database backup before proceeding with this tool."
+msgstr ""
+
+#: forms/content-tools-remove.php:18
+msgid "If you choose to remove plugin settings, once that is done, all settings will be reinitialized to default values if you choose to leave plugin active."
+msgstr ""
+
+#: forms/content-tools-remove.php:23
+msgid "Remove plugin settings"
+msgstr ""
+
+#: forms/content-tools-remove.php:26
+msgid "Main Plugin Settings"
+msgstr ""
+
+#: forms/content-tools-remove.php:32
+msgid "Remove additional files"
+msgstr ""
+
+#: forms/content-tools-remove.php:35
+msgid "Remove GEO Location Databases storage and files"
+msgstr ""
+
+#: forms/content-tools-remove.php:41
+msgid "Remove database data and tables"
+msgstr ""
+
+#: forms/content-tools-remove.php:43
+msgid "This will remove all shares and likes data!"
+msgstr ""
+
+#: forms/content-tools-remove.php:45
+msgid "Remove plugins database table and all data in them"
+msgstr ""
+
+#: forms/content-tools-remove.php:48
+msgid "Remove all data from database table"
+msgstr ""
+
+#: forms/content-tools-remove.php:51
+msgid "Database tables that will be affected"
+msgstr ""
+
+#: forms/content-tools-remove.php:61
+msgid "Disable Plugin"
+msgstr ""
+
+#: forms/content-tools-remove.php:64
+msgid "Disable plugin"
+msgstr ""
+
+#: forms/content-tools-updater.php:10
+msgid "Update status"
+msgstr ""
+
+#: forms/content-update.php:32
+msgid "Update completed."
+msgstr ""
+
+#: forms/content-wizard-geo.php:12
+#: forms/content-wizard-log.php:10
+msgid "Main Logs panel has a lot of moving parts and elements, and some of things may be useful to have depending on what your preferences are."
+msgstr ""
+
+#: forms/content-wizard-geo.php:18
+msgid "Do you want to store country code for each activity logged?"
+msgstr ""
+
+#: forms/content-wizard-geo.php:20
+msgid "This will improve speed for geo location later on, and will add additional information layer for requests activity analysis, and can be beneficial to other plugins related to the coreActivity."
+msgstr ""
+
+#: forms/content-wizard-geo.php:25
+msgid "Do you want to store extended geo location data?"
+msgstr ""
+
+#: forms/content-wizard-geo.php:27
+msgid "All retrieved geo-location data can be stored in the log as a meta data. Right now, it is not used much, but it can be useful to view the IP information at the time it was logged."
+msgstr ""
+
+#: forms/content-wizard-geo.php:32
+msgid "Setting up the geo location feature"
+msgstr ""
+
+#: forms/content-wizard-geo.php:34
+msgid "Plugin can geo-locate IPs using Online service, and it has support for using geo-location databases. Both supported databases require registration to get token or key used to download the database, and both services are free. Check out the dedicated settings panel to configure this further."
+msgstr ""
+
+#: forms/content-wizard-geo.php:35
+msgid "GEO-Location Settings"
+msgstr ""
+
+#: forms/content-wizard-intro.php:10
+msgid "Welcome to the setup wizard for coreActivity plugin! Here you can quickly set up the plugin, and if you need to adjust all the plugin features in more detail, you can do that later through various plugin panels."
+msgstr ""
+
+#: forms/content-wizard-intro.php:13
+msgid "Using this wizard will reconfigure the plugin. Each option might affect one or more plugin settings."
+msgstr ""
+
+#: forms/content-wizard-intro.php:16
+msgid "Let's start with few basics."
+msgstr ""
+
+#: forms/content-wizard-intro.php:22
+msgid "Do you want to get forwarded IP for visitors?"
+msgstr ""
+
+#: forms/content-wizard-intro.php:24
+msgid "Forwarded IP header key can be faked, but it is the only way to get real IP of visitors behind proxies or internal networks. By default, if this option is disabled, plugin will only use REMOTE_ADDR key for visitor IP."
+msgstr ""
+
+#: forms/content-wizard-intro.php:29
+msgid "Do you want to skip logging duplicated entries?"
+msgstr ""
+
+#: forms/content-wizard-intro.php:31
+msgid "Plugin can attempt to detected duplicated events, and skip logging duplicated events inside the 24 hours period to avoid flooding database with the same entry over and over again."
+msgstr ""
+
+#: forms/content-wizard-intro.php:36
+msgid "Do you want to log Referer URL for each request?"
+msgstr ""
+
+#: forms/content-wizard-intro.php:38
+msgid "Each request should referer URL, and depending on the request, this can be quite a long string. Referer is useful for checking the source of the request, but it can be faked by the request source. CoreActivity currently has no direct use for this value."
+msgstr ""
+
+#: forms/content-wizard-intro.php:43
+msgid "Do you want to log User Agent for each request?"
+msgstr ""
+
+#: forms/content-wizard-intro.php:45
+msgid "Each request contains User Agent of the software (usually browser) making the request. This value can be faked by the request source. CoreActivity currently has no use for this value, but other plugins using the log may use it for some additional processing."
+msgstr ""
+
+#: forms/content-wizard-intro.php:50
+msgid "Do you want to log Device Detection for each request?"
+msgstr ""
+
+#: forms/content-wizard-intro.php:52
+msgid "Based on User Agent for each request, plugin can detect the type of device, client, OS and other information. Or it can identify various types of Bots.."
+msgstr ""
+
+#: forms/content-wizard-intro.php:57
+msgid "Do you want to add Admin bar menu?"
+msgstr ""
+
+#: forms/content-wizard-intro.php:59
+msgid "Menu in the WordPress Admin bar will show quick links to the plugin panels for direct access from anywhere on the website where the admin bar is visible. It is only available to website administrators."
+msgstr ""
+
+#: forms/content-wizard-log.php:16
+msgid "Do you want to show the Geolocation information based on IP?"
+msgstr ""
+
+#: forms/content-wizard-log.php:18
+msgid "For each request, IP is logged, and based on the IP, Geo location can be retrieved, and plugin can show Flag and other useful location information."
+msgstr ""
+
+#: forms/content-wizard-log.php:23
+msgid "Do you want to show Gravatar for users?"
+msgstr ""
+
+#: forms/content-wizard-log.php:25
+msgid "If the user is logged for the event, alongside name and other information, plugin can also display the avatar image provided by the Gravatar service."
+msgstr ""
+
+#: forms/content-wizard-log.php:30
+msgid "Do you want to show Device Detection column?"
+msgstr ""
+
+#: forms/content-wizard-log.php:32
+msgid "This column will show the logged device detection data, or the data detected from the user agent stored with each log entry."
+msgstr ""
+
+#: forms/content-wizard-notifications.php:12
+msgid "The plugin has Notifications system for instant notifications with additional daily and weekly digests. For each of these notifications types, you need to enable events you want to include, and you can do that from the Events panel where each event has switches for every notification type. You can use special tool to enable or disable notifications for all events at once."
+msgstr ""
+
+#: forms/content-wizard-notifications.php:13
+msgid "Events Panel"
+msgstr ""
+
+#: forms/content-wizard-notifications.php:14
+msgid "Bulk Notifications Control"
+msgstr ""
+
+#: forms/content-wizard-notifications.php:20
+msgid "Do you want to have Instant Notifications enabled?"
+msgstr ""
+
+#: forms/content-wizard-notifications.php:22
+msgid "These notifications are sent as soon as the eligible event is logged (with instant delay period if needed to avoid too many emails sent)."
+msgstr ""
+
+#: forms/content-wizard-notifications.php:27
+msgid "Do you want to have Daily Digest enabled?"
+msgstr ""
+
+#: forms/content-wizard-notifications.php:29
+msgid "This digest is sent once a day with overview of all components and events in the previous day."
+msgstr ""
+
+#: forms/content-wizard-notifications.php:34
+msgid "Do you want to have Weekly Digest enabled?"
+msgstr ""
+
+#: forms/content-wizard-notifications.php:36
+msgid "This digest is sent once a week with overview of all components and events in the previous 7 days."
+msgstr ""
+
+#: forms/dialog-data.php:15
+msgid "Log ID"
+msgstr ""
+
+#: forms/dialog-data.php:22
+msgid "Date/Time"
+msgstr ""
+
+#: forms/dialog-data.php:24
+msgid "Object ID"
+msgstr ""
+
+#: forms/dialog-data.php:25
+msgid "Object Name"
+msgstr ""
+
+#: forms/dialog-data.php:45
+msgid "Blog ID"
+msgstr ""
+
+#: forms/dialog-data.php:48
+msgid "Blog Name"
+msgstr ""
+
+#: forms/dialog-data.php:49
+msgid "Blog URL"
+msgstr ""
+
+#: forms/dialog-data.php:100
+msgid "Continent"
+msgstr ""
+
+#: forms/dialog-data.php:104
+msgid "Localhost IP"
+msgstr ""
+
+#: forms/dialog-data.php:145
+msgid "OS"
+msgstr ""
+
+#: forms/dialog-data.php:150
+msgid "Client"
+msgstr ""
+
+#: forms/dialog-data.php:158
+msgid "Brand"
+msgstr ""
+
+#: forms/dialog-data.php:163
+msgid "Model"
+msgstr ""
+
+#: forms/dialog-logs.php:13
+msgid "IP WhoIs"
+msgstr ""
+
+#: forms/dialog-logs.php:15
+msgid "Please wait..."
+msgstr ""
+
+#: forms/dialog-logs.php:18
+msgid "Log Data"
+msgstr ""
+
+#: forms/dialog-logs.php:20
+msgid "Log Dialog Popup"
+msgstr ""
+
+#: forms/setup-database.php:12
+msgid "Additional database tables"
+msgstr ""
+
+#: forms/setup-database.php:22
+msgid "Database Upgrade Notices"
+msgstr ""
+
+#: forms/setup-database.php:26
+msgid "Database Tables Check"
+msgstr ""
+
+#: forms/setup-database.php:34
+msgid "ERROR"
+msgstr ""
+
+#: forms/setup-database.php:36
+msgid "OK"
+msgstr ""
+
